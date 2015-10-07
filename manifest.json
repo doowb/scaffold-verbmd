@@ -1,0 +1,35 @@
+{
+  "name": "scaffold-verbmd",
+  "description": "Scaffold to add a .verb.md to your project.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb",
+  "repository": "https://github.com/doowb/scaffold-verbmd",
+  "authors": [
+    {
+      "author": "Brian Woodward",
+      "homepage": "https://github.com/doowb",
+      "email": "brian.woodward@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "targets": {
+    "verbmd": {
+      "isScaffold": true,
+      "files": [
+        {
+          "src": [
+            ".verb.md"
+          ],
+          "dest": "./",
+          "options": {},
+          "name": "scaffold"
+        }
+      ],
+      "options": {},
+      "key": "verbmd"
+    }
+  },
+  "config": {},
+  "isMetadata": true
+}
